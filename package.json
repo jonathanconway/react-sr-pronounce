@@ -1,0 +1,62 @@
+{
+  "name": "react-sr-pronounce",
+  "version": "0.1.0",
+  "description": "A React component that lets you control how content is pronounced by screen-readers.",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanconway/react-sr-pronounce"
+  },
+  "keywords": [
+    "react",
+    "pronounce",
+    "screen-reader",
+    "voice-over",
+    "text",
+    "component",
+    "javascript",
+    "react-component"
+  ],
+  "author": "Jonathan Conway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanconway/react-sr-pronounce/issues"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "homepage": "https://github.com/jonathanconway/react-sr-pronounce",
+  "devDependencies": {
+    "@types/enzyme": "^2.8.0",
+    "enzyme": "^2.8.2",
+    "expect": "^1.20.2",
+    "react-test-renderer": "^15.5.4",
+    "source-map-loader": "^0.2.1",
+    "ts-jest": "^20.0.4",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.2",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "@types/react": "^15.0.24",
+    "@types/react-dom": "^15.5.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$"
+  }
+}
