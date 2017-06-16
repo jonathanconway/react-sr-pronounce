@@ -2,7 +2,8 @@ var path = require('path');
 
 module.exports = {
   entry: {
-    dist: "./lib/index.ts"
+    dist: "./lib/index.ts",
+    example: "./example/index.tsx"
   },
 
   output: {

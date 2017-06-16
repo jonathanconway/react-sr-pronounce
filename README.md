@@ -28,6 +28,16 @@ export default class App extends Component {
 }
 ```
 
+## Demo
+
+Try out the [live example](http://jonathanconway.co/react-sr-pronounce).
+
+## Support
+
+Tested with:
+
+* VoiceOver on macOS Sierra 10.12.5 in Chrome
+
 ## License
 
 [MIT](LICENSE). Copyright (c) 2017 Jonathan Conway.
